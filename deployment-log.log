@@ -1,0 +1,157 @@
+008-real-estate-marketplace/eth-contracts -> truffle migrate --reset --network rinkeby
+
+Compiling your contracts...
+===========================
+> Everything is up to date, there is nothing to compile.
+
+
+Migrations dry-run (simulation)
+===============================
+> Network name:    'rinkeby-fork'
+> Network id:      4
+> Block gas limit: 30000000 (0x1c9c380)
+
+
+1_initial_migration.js
+======================
+
+   Deploying 'Migrations'
+   ----------------------
+   > block number:        11002531
+   > block timestamp:     1657495989
+   > account:             0x349f870D3A60f7EE80Ba460e63352739573E06B6
+   > balance:             0.565979499266084051
+   > gas used:            236270 (0x39aee)
+   > gas price:           10 gwei
+   > value sent:          0 ETH
+   > total cost:          0.0023627 ETH
+
+   -------------------------------------
+   > Total cost:           0.0023627 ETH
+
+
+2_deploy_contracts.js
+=====================
+
+   Deploying 'CustomERC721Token'
+   -----------------------------
+   > block number:        11002533
+   > block timestamp:     1657495993
+   > account:             0x349f870D3A60f7EE80Ba460e63352739573E06B6
+   > balance:             0.536531619266084051
+   > gas used:            2899020 (0x2c3c4c)
+   > gas price:           10 gwei
+   > value sent:          0 ETH
+   > total cost:          0.0289902 ETH
+
+
+   Deploying 'SquareVerifier'
+   --------------------------
+   > block number:        11002534
+   > block timestamp:     1657495994
+   > account:             0x349f870D3A60f7EE80Ba460e63352739573E06B6
+   > balance:             0.526395249266084051
+   > gas used:            1013637 (0xf7785)
+   > gas price:           10 gwei
+   > value sent:          0 ETH
+   > total cost:          0.01013637 ETH
+
+   -------------------------------------
+   > Total cost:          0.03912657 ETH
+
+Summary
+=======
+> Total deployments:   3
+> Final cost:          0.04148927 ETH
+
+
+
+
+Starting migrations...
+======================
+> Network name:    'rinkeby'
+> Network id:      4
+> Block gas limit: 30000000 (0x1c9c380)
+
+
+1_initial_migration.js
+======================
+
+   Deploying 'Migrations'
+   ----------------------
+   > transaction hash:    0xf2b23ad302c8d27395a915b61093050b5ec8842eff6e551e4eec86cfd5911e49
+   ⠼ Blocks: 0            Seconds: 0
+   Deploying 'SolnSquareVerifier'
+   ------------------------------
+   > block number:        11002536 0
+   > block timestamp:     1657496000
+   > account:             0x349f870D3A60f7EE80Ba460e63352739573E06B6
+   > balance:             0.489906759266084051
+   > gas used:            3620181 (0x373d55)
+   > gas price:           10 gwei
+   > value sent:          0 ETH
+   > total cost:          0.03620181 ETH
+
+   > Blocks: 0            Seconds: 4
+   > contract address:    0x6425bBEAA59B6A87400857F8db1B311cAA20f467
+   > block number:        11002536
+   > block timestamp:     1657496004
+   > account:             0x349f870D3A60f7EE80Ba460e63352739573E06B6
+   > balance:             0.565979499266084051
+   > gas used:            236270 (0x39aee)
+   > gas price:           10 gwei
+   > value sent:          0 ETH
+   > total cost:          0.0023627 ETH
+
+   > Saving migration to chain.
+   > Saving artifacts
+   -------------------------------------
+   > Total cost:           0.0023627 ETH
+
+
+2_deploy_contracts.js
+=====================
+
+   Deploying 'CustomERC721Token'
+   -----------------------------
+   > transaction hash:    0xf6c79035c47da33f6e345719c9bb3b9f1e3483597b2f18bd2da1907f5b991b27
+   > Blocks: 0            Seconds: 8
+   > contract address:    0x1c3845bC86663F0D25EBA0D123aE8fF6A4970D81
+   > block number:        11002538
+   > block timestamp:     1657496034
+   > account:             0x349f870D3A60f7EE80Ba460e63352739573E06B6
+   > balance:             0.536531619266084051
+   > gas used:            2899020 (0x2c3c4c)
+   > gas price:           10 gwei
+   > value sent:          0 ETH
+   > total cost:          0.0289902 ETH
+
+
+   Deploying 'SquareVerifier'
+   --------------------------
+   > transaction hash:    0xe057723a3302fa70ad618534e1796f65c8f22598bdcb0e987e08c5d627924cdf
+   > Blocks: 1            Seconds: 12
+   > contract address:    0x3738c6D30dCC42300206e45df7f97BB8193558e1
+   > block number:        11002539
+   > block timestamp:     1657496049
+   > account:             0x349f870D3A60f7EE80Ba460e63352739573E06B6
+   > balance:             0.526395249266084051
+   > gas used:            1013637 (0xf7785)
+   > gas price:           10 gwei
+   > value sent:          0 ETH
+   > total cost:          0.01013637 ETH
+
+   ⠹ Saving migration to chain.
+   Deploying 'SolnSquareVerifier'
+   ------------------------------
+   > transaction hash:    0xce10b97d79d2f2b6667bd128b6ee11833abd3f1574daa383c9ebb211bc78d9f8
+   > Saving migration to chain.
+   > Saving artifacts     Seconds: 8
+   -------------------------------------
+   > Total cost:          0.03912657 ETH
+
+Summary
+=======
+> Total deployments:   3
+> Final cost:          0.04148927 ETH
+
